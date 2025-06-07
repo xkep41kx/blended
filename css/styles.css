@@ -282,7 +282,6 @@ button {
 
 /* #endregion */
 
-
 /* #region Management */
 
 .management-container {
@@ -776,7 +775,6 @@ button {
 
 /* #endregion */
 
-
 /* #region Feedbaack */
 .feedbaack-title {
     font-size: 32px;
@@ -868,7 +866,6 @@ button {
 
 /* #endregion */
 
-
 /* #region Promo */
 .promo-box {
     display: flex;
@@ -918,6 +915,438 @@ button {
 
 /* #endregion */
 
+/* #region Ourclients */
+.ourclients-title {
+    padding-top: 50px;
+    font-size: 40px;
+    color: #22343d;
+
+    display: flex;
+    justify-content: center;
+}
+
+.ourclients-list {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+
+    padding-top: 50px;
+}
+
+.ourclients-item {}
+
+/* #endregion */
+
+/* #region Close-product */
+.section.close-product {
+    background-color: #f5f5f5;
+}
+
+.close-product-title {
+    font-size: 34px;
+    text-align: center;
+    color: #22343d;
+
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.close-product-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.close-product-item {
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    width: 350px;
+    min-height: 305px;
+
+}
+
+.close-product-box.close-product-icon {
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 19px;
+    background: #02897a;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-product-box.close-product-icon.blue {
+    background-color: #4d8dff;
+}
+
+.close-product-box.close-product-icon.tomato {
+    background-color: #f03e3d;
+}
+
+.close-product-icon {
+    fill: #ffffff;
+}
+
+.close-product-subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.38;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #22343d;
+
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.close-product-text {
+    line-height: 1.6875;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #22343d;
+
+    width: 275px;
+    min-height: 108px;
+
+    margin: 0 auto;
+}
+
+/* #endregion */
+
+/* #region  Product-work*/
+.product-work-title {
+    font-size: 34px;
+    text-align: center;
+    color: #22343d;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 73px;
+}
+
+.product-work-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+.product-work-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 89px;
+
+    width: 1027px;
+    min-height: 280px;
+}
+
+.product-work-img {}
+
+.product-work-box {
+    width: 438px;
+    height: 210px;
+}
+
+.product-work-span {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #22343d;
+
+}
+
+.product-work-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.product-work-text {
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.product-work-btn {
+    display: block;
+
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+
+    padding: 11px 18px;
+
+    border-radius: 8px;
+    background-color: #02897a;
+
+    margin: 0 auto;
+    margin-top: 77px;
+    margin-bottom: 65px;
+}
+
+/* #endregion */
+
+/* #region  Offers*/
+.offers-title {
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+
+    margin: 0 auto;
+    width: 537px;
+    min-height: 96px;
+    margin-bottom: 93px;
+}
+
+.offers-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 227px;
+}
+
+.offers-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offers-img {
+    margin-bottom: 27px;
+}
+
+.offers-subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.167;
+    color: #000;
+
+    margin-bottom: 16px;
+}
+
+.offers-list-list {}
+
+.offers-item-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.77778;
+    text-align: center;
+    color: #22343d;
+
+}
+
+.offers-text {
+    font-weight: 500;
+    line-height: 1.75;
+    color: #000;
+
+    margin-top: 12px;
+    margin-bottom: 95px;
+}
+
+/* #endregion */
+
+/* #region Presing Customers */
+.presing-span.customers {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.prising-title.customers {
+    font-size: 40px;
+    text-align: center;
+    color: #22343d;
+
+    margin-bottom: 16px;
+}
+
+.prising-text.customers {
+    font-weight: 500;
+    text-align: center;
+    color: #22343d;
+
+    margin-bottom: 49px;
+}
+
+.prising-wrapper.customers {
+    margin-bottom: 100px;
+}
+
+/* #endregion */
+
+/* #region Enterprise */
+.section.enterprise {
+    background-color: #f6f6f6;
+}
+
+.enterprise-title-text {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 16px;
+}
+
+.enterprise-title {
+    font-size: 34px;
+    color: #22343d;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 8px;
+}
+
+.enterprise-text {
+    font-size: 18px;
+    color: #22343d;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 32px;
+}
+
+.enterprise-btn {
+    display: block;
+    margin: 0 auto;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+
+    border-radius: 8px;
+    background-color: #02897a;
+
+    padding: 11px 18px;
+}
+
+/* #endregion */
+
+/* #region Combo */
+.section.combo {
+    padding-top: 294px;
+    padding-bottom: 0;
+    background-color: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+}
+
+.combo-title {
+    font-size: 34px;
+    color: #22343d;
+
+    margin-bottom: 56px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.combo-wrapper {
+    display: flex;
+    gap: 60px;
+}
+
+.combo-img {
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+.combo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.combo-item {
+    min-width: 506px;
+    height: 122px;
+}
+
+.combo-box.icon-subtitle {
+    display: flex;
+    min-width: 222px;
+    height: 50px;
+}
+
+.combo-box-icon {
+    width: 50px;
+    height: 50px;
+    padding: 13px 13px;
+
+    border-radius: 50%;
+    background-color: #f4f5f7;
+
+    margin-right: 14px;
+}
+
+.combo-icon {
+    width: 24px;
+    height: 24px;
+
+}
+
+.combo-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #22343d;
+
+    padding-top: 7px;
+}
+
+.combo-text {
+    line-height: 1.75;
+    color: #22343d;
+}
+
+/* #endregion */
+
+/* #region faq */
+.section.faq {
+    padding-top: 0;
+}
+
+.faq-title {
+    font-size: 34px;
+    color: #22343d;
+    text-align: center;
+
+    margin-bottom: 8px;
+}
+
+.faq-text {
+    font-size: 18px;
+    color: #22343d;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+/* #endregion */
+
+
 /* #region Footer */
 .footer {
     padding: 50px 0;
@@ -931,6 +1360,40 @@ button {
 .footer-media-box {
     min-height: 205px;
     margin-right: 146px;
+}
+
+.footer-list-media {
+    display: flex;
+    gap: 16px;
+
+    margin-top: 18px;
+}
+
+.footer-item-media {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    background-color: #edfffc;
+}
+
+.footer-link-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.footer-icon-media {
+
+    width: 24px;
+    height: 24px;
+
+    stroke-width: 2px;
+    stroke: #02897a;
+    fill: transparent;
 }
 
 .footer-resouse-box {
@@ -968,6 +1431,41 @@ button {
     min-height: 57px;
 }
 
+.label-sing {
+    margin-top: 30px;
+}
+
+.sing-box.input-icon {
+    position: relative;
+}
+
+.input-sing {
+    width: 100%;
+
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    height: 48px;
+    padding-left: 42px;
+}
+
+.input-sing::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #02897a;
+}
+
+.icon-sing {
+    position: absolute;
+
+    left: 13px;
+    top: 12px;
+
+    fill: #02897a;
+}
+
+
+
 .footer-sing-btm {
     font-weight: 700;
     font-size: 16px;
@@ -978,7 +1476,7 @@ button {
     background: #02897a;
 
     padding: 8px 15px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .footer-down-text {

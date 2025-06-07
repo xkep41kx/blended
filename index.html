@@ -370,6 +370,29 @@
                 <div class="footer-media-box">
                     <a class="logo footer-logo" href="./index.html"><img src="./images/logo.svg" alt="logo"
                             width="40" />Product</a>
+                    <ul class="footer-list-media">
+                        <li class="footer-item-media">
+                            <a class="footer-link-media" href="">
+                                <svg class="footer-icon-media" width="24" height="24">
+                                    <use href="./images/icon-sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-item-media">
+                            <a class="footer-link-media" href="">
+                                <svg class="footer-icon-media" width="13" height="22">
+                                    <use href="./images/icon-sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-item-media">
+                            <a class="footer-link-media" href="">
+                                <svg class="footer-icon-media" width="24" height="24">
+                                    <use href="./images/icon-sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="footer-resouse-box">
                     <p class="footer-title-text">Resource</p>
@@ -392,12 +415,13 @@
                     <p class="footer-title-text sing-title">
                         knowing you're always on the best energy deal.
                     </p>
-                    <form class="form-sing" action="">
-                        <label class="label-sing" for=""></label>
+                    <form class="form-sing" name="form-sing" autocomplete="on" novalidate>
+                        <label class="label-sing" for="user-tel"></label>
                         <div class="sing-box input-icon">
-                            <input class="input-sing" type="tel">
-                            <svg class="icon-sing" width="" height="">
-                                <use href=""></use>
+                            <input class="input-sing" type="tel" id="user-tel" name="user-tel"
+                                placeholder="Enter your phone number">
+                            <svg class="icon-sing" width="16" height="24">
+                                <use href="./images/icon-sprite.svg#icon-tel"></use>
                             </svg>
                         </div>
                     </form>
